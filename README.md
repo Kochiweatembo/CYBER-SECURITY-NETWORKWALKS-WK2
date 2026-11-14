@@ -7,7 +7,7 @@ W2-PM-FINAL | CYBERSECURITY | NETWORKWALKS
 | Field | Detail |
 |---|---|
 | **Pentester Name (Cybersecurity Professional)** | Kochiwe Anthony Tembo |
-| **Program/Batch** | Networkwalks Cybersecurity Internship 2026, Batch ⚠️ **TODO: batch number** |
+| **Program/Batch** | Networkwalks Cybersecurity Internship 2026, Batch B084
 | **Date** | 14 November 2026 (tools run on 13-14 November 2026) |
 | **Modules completed** | W2-PM1 (Multiple Kali Tools)<br>W2-PM3 (Maltego)<br>W2-PM4 (theHarvester)<br>W2-PM5 (Zenmap Scanning) |
 | **Client/Target** | 1. Networkwalks (`networkwalks.com`), permission secured<br>2. My own network, my phone's hotspot (Zenmap scan)<br>3. `microsoft.com`, passive OSINT only, target set by module W2-PM4 |
@@ -156,7 +156,7 @@ I installed Zenmap on my Windows PC and used the **Ping scan** profile (`nmap -s
 | `10.205.228.131` | My own Windows PC (Figure 15) | Not shown: Nmap does not report the scanning machine's own MAC. It can be read with `ipconfig /all` |
 
 - The gateway's MAC starts with 5A. A second hex digit of 2, 6, A or E marks a locally administered address, which suggests a private or randomized MAC and would explain why no vendor was identified.
-- Topology (Figure 16): both hosts appear connected to localhost with dotted lines (no traceroute information). Topology saved as PDF (Save Graphic): ⚠️ **TODO: confirm the PDF is saved and add it to this repo, e.g. `screenshots/zenmap_topology.pdf`**
+- Topology (Figure 16): both hosts appear connected to localhost with dotted lines (no traceroute information). Topology saved as PDF. txt files and screenshots/zenmap_topology.pdf
 
 **Why it matters:** a ping scan finds live devices and MAC addresses without scanning any ports, which is why every host shows 0 open ports and 0 scanned ports. That does not mean the hosts have no open ports, only that ports were not checked. On a larger network the same scan would list every connected device, which helps an attacker map targets and helps a defender spot unknown devices.
 
@@ -254,10 +254,6 @@ Finally, I learned that reconnaissance and scanning must stay within an authoriz
 
 ![11_zenmap](screenshots/11_zenmap.png)
 
-**Figure 12 - `ipconfig` on the Windows PC**
-
-⚠️ **TODO: add a screenshot of the ipconfig output as `screenshots/12_ipconfig.png`, then replace this line with** `![12_ipconfig](screenshots/12_ipconfig.png)`
-
 **Figure 13 - Zenmap Nmap Output for `nmap -sn 10.205.228.0/24` (2 hosts up)**
 
 ![13_zenmap_subnet_output](screenshots/13_zenmap_subnet_output.png)
@@ -281,7 +277,7 @@ Finally, I learned that reconnaissance and scanning must stay within an authoriz
 ## 👤 Author
 
 **Kochiwe Anthony Tembo**
-Cybersecurity intern, Networkwalks | Year 2 BSc Computer Science, Copperbelt University
+Cybersecurity intern, Networkwalks 
 
 LinkedIn: <https://www.linkedin.com/in/kochiwe-tembo-0a52a4400>
 GitHub: <https://github.com/Kochiweatembo>
