@@ -200,79 +200,7 @@ The most useful lesson was cross-checking: the same IP address and the same emai
 
 Finally, I learned that reconnaissance and scanning must stay within an authorized scope. These activities were completed as part of an assigned educational cybersecurity lab.
 
-## 8. Evidences Collected
 
-**Figure 1 - `whois networkwalks.com` (registry record)**
-
-![1_whois](screenshots/1_whois.png)
-
-**Figure 2 - `whois networkwalks.com` (registrar record, GoDaddy)**
-
-![2_whois_registrar](screenshots/2_whois_registrar.png)
-
-**Figure 3 - `whatweb networkwalks.com`**
-
-![3_whatweb](screenshots/3_whatweb.png)
-
-**Figure 4 - `nslookup networkwalks.com`**
-
-![4_nslookup](screenshots/4_nslookup.png)
-
-**Figure 5 - `curl -I https://networkwalks.com`**
-
-![5_curl](screenshots/5_curl.png)
-
-**Figure 6 - `wafw00f networkwalks.com`**
-
-![6_wafw00f](screenshots/6_wafw00f.png)
-
-**Figure 7 - `dnsrecon -d networkwalks.com`**
-
-![7_dnsrecon](screenshots/7_dnsrecon.png)
-
-**Figure 8 - Maltego graph and transform output for `networkwalks.com`**
-
-![8_maltego](screenshots/8_maltego.png)
-
-**Figure 9 - theHarvester, `microsoft.com`, Baidu source, limit 1000**
-
-![9_theharvester_baidu](screenshots/9_theharvester_baidu.png)
-
-**Figure 10 - theHarvester, `microsoft.com`, all sources, limit 50 (start of run)**
-
-![10_theharvester_all](screenshots/10_theharvester_all.png)
-
-**Figure 10b - theHarvester, `microsoft.com`, all sources, results part 1 (ASNs, interesting URLs, start of IP list)**
-
-![10b_theharvester_results_1](screenshots/10b_theharvester_results_1.png)
-
-**Figure 10c - theHarvester, `microsoft.com`, all sources, results part 2 (end of IP list, emails)**
-
-![10c_theharvester_results_2](screenshots/10c_theharvester_results_2.png)
-
-**Figure 11 - Zenmap ping scan and topology with legend**
-
-![11_zenmap](screenshots/11_zenmap.png)
-
-**Figure 13 - Zenmap Nmap Output for `nmap -sn 10.205.228.0/24` (2 hosts up)**
-
-![13_zenmap_subnet_output](screenshots/13_zenmap_subnet_output.png)
-
-**Figure 14 - Zenmap Host Details for `10.205.228.16` (gateway, with MAC)**
-
-![14_zenmap_host_16](screenshots/14_zenmap_host_16.png)
-
-**Figure 15 - Zenmap Host Details for `10.205.228.131` (my PC)**
-
-![15_zenmap_host_131](screenshots/15_zenmap_host_131.png)
-
-**Figure 16 - Zenmap Topology tab after scanning `10.205.228.0/24`**
-
-![16_zenmap_subnet_topology](screenshots/16_zenmap_subnet_topology.png)
-
----
-
--End-
 
 ## 👤 Author
 
