@@ -1,4 +1,4 @@
-# PENETRATION TESTING REPORT
+# PENETRATION 
 
 **Footprinting & Network Scanning Phases**
 
