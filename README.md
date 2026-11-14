@@ -11,7 +11,7 @@ W2-PM-FINAL | CYBERSECURITY | NETWORKWALKS
 | **Date** | 14 November 2026 (tools run on 13-14 November 2026) |
 | **Modules completed** | W2-PM1 (Multiple Kali Tools)<br>W2-PM3 (Maltego)<br>W2-PM4 (theHarvester)<br>W2-PM5 (Zenmap Scanning) |
 | **Client/Target** | 1. Networkwalks (`networkwalks.com`), permission secured<br>2. My own network, my phone's hotspot (Zenmap scan)<br>3. `microsoft.com`, passive OSINT only, target set by module W2-PM4 |
-| **Permission secured from client?** | Yes, testing the Networkwalks academy's own website, as assigned by the program |
+| **Permission secured from client?** | Yes
 | **Phases covered** | **Phase 1:** Reconnaissance & Footprinting<br>**Phase 2:** Scanning & Network Discovery<br>**Phase 3-5:** In Progress |
 
 > The full report with all evidence is also available as a Word file: [W2-PM-FINAL_Pentest_Report_Kochiwe-Tembo.docx](./W2-PM-FINAL_Pentest_Report_Kochiwe-Tembo.docx)
